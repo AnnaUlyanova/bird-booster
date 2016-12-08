@@ -6,3 +6,13 @@
 .bird-box{
   padding: 20px;
 }
+
+.navbar-brand{
+  padding-right: 50px;
+}
+
+.logo{
+  padding-top: 8px;
+  padding-right: 50px;
+  padding-left: 10px;
+}
