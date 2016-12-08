@@ -21,9 +21,7 @@ function getBirdByID (req, res) {
   db.getBirdData(renderBirdID)
 
   function renderBirdID (err, birds) {
-    var data = {
-      currentBird: birds[req.params.id-1]
-    }
+    var data = birds[req.params.id-1]
   res.render('bird', data)
   }
 }
