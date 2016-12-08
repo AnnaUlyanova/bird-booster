@@ -1,5 +1,6 @@
 .bird-image{
   width: 100%;
+  max-width: 600px;
   padding-top: 20px;
 }
 
@@ -15,4 +16,12 @@
   padding-top: 8px;
   padding-right: 50px;
   padding-left: 10px;
+}
+
+.bird-page{
+  text-align: center;
+}
+
+.desc{
+  padding: 10px;
 }
