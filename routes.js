@@ -1,8 +1,8 @@
 var db = require('./db')
 
 module.exports = {
-  getHome
-  // getBirdByName
+  getHome,
+  getBirdByID
 }
 
 function getHome (req,res) {
@@ -16,12 +16,13 @@ function getHome (req,res) {
   }
 }
 
-// function getBirdbyName (req, res) {
-//   db.getBirdData(renderBirdNames)
+function getBirdByID (req, res) {
+  db.getBirdData(renderBirdID)
 
-//   function renderBirdNames (err, birds) {
-//     var data = {
-//       currentBird: birds
-//     }
-//   }
-// }
+  function renderBirdID (err, birds) {
+    var data = {
+      currentBird: birds[req.params.id-1]
+    }
+  res.render('bird', data)
+  }
+}
