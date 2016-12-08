@@ -21,3 +21,4 @@ server.use(bodyParser.urlencoded({ extended: true }))
 
 // Routes
 server.get('/', routes.getHome)
+server.get('/bird/:name', routes.getBirdByName)
