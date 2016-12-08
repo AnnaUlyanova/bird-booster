@@ -10,10 +10,11 @@ module.exports = server
 
 // Middleware
 server.engine('hbs', hbs({
-  defaultLayout: 'main.hbs'
+  defaultLayout: 'main.hbs',
+  extname: 'hbs'
 }))
 server.set('view engine', 'hbs')
-server.set('views', path.join(__dirname, 'views'))
+//server.set('views', path.join(__dirname, 'views'))
 
 server.use(express.static('public'))
 server.use(bodyParser.urlencoded({ extended: true }))
