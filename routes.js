@@ -2,6 +2,7 @@ var db = require('./db')
 
 module.exports = {
   getHome
+  // getBirdByName
 }
 
 function getHome (req,res) {
@@ -14,3 +15,13 @@ function getHome (req,res) {
   res.render('home', data)
   }
 }
+
+// function getBirdbyName (req, res) {
+//   db.getBirdData(renderBirdNames)
+
+//   function renderBirdNames (err, birds) {
+//     var data = {
+//       currentBird: birds
+//     }
+//   }
+// }

@@ -1,9 +1,9 @@
 var fs = require ('fs')
 var path = require('path')
 
-var dataPath = path.join(__dirnmae, 'birdData.json')
+var dataPath = path.join(__dirname, 'birdData.json')
 
-module.exports:{
+module.exports = {
   getBirdData: getBirdData
 }
 
