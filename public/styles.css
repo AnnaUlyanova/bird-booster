@@ -1,7 +1,8 @@
-.bird-image{
-  width: 100%;
-  max-width: 600px;
-  padding-top: 20px;
+/*HOME PAGE*/
+body{
+  /*background-image: url("/images/background.png");
+  background-size: cover;*/
+  background-color: black;
 }
 
 .bird-box{
@@ -18,10 +19,29 @@
   padding-left: 10px;
 }
 
+/*BIRD PAGE*/
+.bird-image{
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  max-width: 600px;
+  //padding-top: 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+
 .bird-page{
   text-align: center;
+  //text-align: justify;
 }
 
 .desc{
   padding: 10px;
+  /*width: 100%;
+  max-width: 600px;*/
+}
+
+/*ABOUT PAGE*/
+.about{
+  text-align: center;
 }

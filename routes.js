@@ -27,5 +27,5 @@ function getBirdByID (req, res) {
 }
 
 function getAbout (req,res) {
-  res.send('this is our about page')
+  res.render('about')
 }
