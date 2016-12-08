@@ -3,5 +3,5 @@ module.exports = {
 }
 
 function getHome (req,res) {
- res.send('Our bird-booster is deployed')
+ res.render('home', {})
 }
