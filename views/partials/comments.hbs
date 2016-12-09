@@ -1,3 +1,25 @@
-<div class="docs-section comments">
+<div class="docs-section comments container">
+  <h2>Comments</h2>
+
+  <form action="/bird/{{id}}" method="post">
+    <div class="input-group nameInput">
+      <input class="form-control" type="text" name="name" placeholder="Name">
+      <input class="btn btn-default commentSend" type="submit" value="Submit">
+    </div>
+    <div class="input-group commentInput">
+      <textarea class="form-control" name="text" placeholder="Comment"></textarea>
+    </div>
+  </form>
+
+  {{#each comments}}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{name}}</h3>
+      </div>
+      <div class="panel-body">
+        {{text}}
+      </div>
+    </div>
+  {{/each}}
 
 </div>

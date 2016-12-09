@@ -57,3 +57,20 @@ body{
 .altname{
   color: #F2CC79;
 }
+
+/*COMMENTS*/
+.comments{
+  margin-top: 100px;
+  width: 100%;
+  text-align: left;
+}
+
+.nameInput{
+  display: flex;
+  justify-content: space-around;
+}
+
+.commentInput{
+  width: 100%;
+  margin-bottom: 80px;
+}
