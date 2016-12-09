@@ -1,7 +1,5 @@
 /*HOME PAGE*/
 body{
-  /*background-image: url("/images/background.png");
-  background-size: cover;*/
   background-color: black;
 }
 
@@ -82,4 +80,10 @@ body{
 .commentInput{
   width: 100%;
   margin-bottom: 80px;
+}
+
+/*HEADER*/
+.nav{
+  float: right;
+  margin-right: 5px;
 }
