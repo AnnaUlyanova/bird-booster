@@ -9,8 +9,8 @@
 6 silly lifecycle workspace@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle workspace@1.0.0~start: workspace@1.0.0
 8 verbose lifecycle workspace@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle workspace@1.0.0~start: PATH: /Users/eda/.nvm/versions/node/v7.2.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/eda/workspace/bird-booster-9000/bird-booster/node_modules/.bin:/Users/eda/.nvm/versions/node/v7.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle workspace@1.0.0~start: CWD: /Users/eda/workspace/bird-booster-9000/bird-booster
+9 verbose lifecycle workspace@1.0.0~start: PATH: /Users/eda/.nvm/versions/node/v7.2.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/eda/workspace/bird-booster/node_modules/.bin:/Users/eda/.nvm/versions/node/v7.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle workspace@1.0.0~start: CWD: /Users/eda/workspace/bird-booster
 11 silly lifecycle workspace@1.0.0~start: Args: [ '-c', 'node index' ]
 12 silly lifecycle workspace@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle workspace@1.0.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:885:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid workspace@1.0.0
-16 verbose cwd /Users/eda/workspace/bird-booster-9000/bird-booster
+16 verbose cwd /Users/eda/workspace/bird-booster
 17 error Darwin 16.1.0
 18 error argv "/Users/eda/.nvm/versions/node/v7.2.0/bin/node" "/Users/eda/.nvm/versions/node/v7.2.0/bin/npm" "start"
 19 error node v7.2.0
